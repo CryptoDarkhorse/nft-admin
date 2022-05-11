@@ -1,0 +1,25 @@
+/*
+    Name: anft
+    Author: imsaifun
+    Author Portfolio : https://themeforest.net/user/imsaifun/portfolio
+    Email: imsaifun@gmail.com
+
+
+    Table of Content: 
+
+    1. Abstract
+    2. Bootstrap CSS
+    3. Base
+    4. Layout
+    5. Component
+    6. Pages
+    
+*/
+
+@import "./abstract/abstract";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./base/base";
+@import "./layout/layout";
+@import "./element/element";
+@import "./components/component";
+@import "./pages/pages";

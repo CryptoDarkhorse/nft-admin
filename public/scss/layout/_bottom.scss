@@ -1,0 +1,38 @@
+.bottom {
+    background: $dark;
+
+    .bottom-logo {
+
+        p {
+            color      : $body-color;
+            line-height: 30px;
+            font-weight: 400;
+        }
+    }
+
+    .bottom-widget {
+        @include respond("md") {
+            margin-bottom: 30px;
+        }
+
+        .widget-title {
+            font-size    : 18px;
+            font-weight  : 600;
+            color        : #fff;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            li {
+                a {
+                    color        : $body-color;
+                    font-weight  : 400;
+                    margin-bottom: 10px;
+                    display      : inline-block;
+                }
+            }
+        }
+    }
+
+
+}
